@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="en-us">
+<head>
+<!-- Start of e-comprei Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=e9b66e9f-bd18-4681-a292-9238af160a9b"> </script>
+<!-- End of e-comprei Zendesk Widget script -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title><vtex.cmc:searchTitle /></title>
+
+  <vtex:metaTags/>	
+  <!--[if IE]><link rel="shortcut icon" href="/arquivos/favicon-32-32.ico"><![endif]-->
+  <link rel="icon" href="/arquivos/favicon-32-32.ico"/>
+
+  <vtex:template id="B8T-Stylesheets" />
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+  <meta name="google-site-verification" content="detY_QW0Rfp0z8NQubNvJFrQ6kRuVnok-ZmDnEDldtY" />
+    <link rel="stylesheet" href="/arquivos/e-comprei-category.css" type="text/css" />
+</head>
+<body>
+  <vtex:template id="B8T-Header" />
+  <section class="breadcrumb">
+    <div class="breadcrumb__wrapper">
+      <vtex.cmc:breadCrumb />
+    </div>
+  </section>
+  <div id="rh_cat1"></div>
+  <div class="categoryPage__content">
+    <div class="categoryPage__wrapper">
+      <div class="categoryPage__sidebar">
+        <vtex:template id="B8T-Filter" />
+      </div>
+      <div class="categoryPage__container">
+        <section class="categoryHeader">
+          <div class="categoryHeader__title">
+            <vtex.cmc:searchTitle />
+          </div>
+          <vtex:template id="B8T-CategoryActions" />
+        </section>
+        <section class="categoryProducts">
+          <vtex.cmc:searchResult layout="3cadb059-45db-49d8-86b0-deec270860be" itemCount="25"  columnCount="25" />
+        </section>
+        <div class="js-pager">
+        </div>
+      </div>
+    </div>
+  </div>
+  <vtex:template id="B8T-StripeArea" />
+  <vtex:template id="B8T-Newsletter" />
+  <vtex:template id="B8T-Footer" />
+  
+  <vtex:template id="B8T-Scripts" />
+  <script type="text/javascript" src="/arquivos/comprei-smartResearch.js"></script>
+</body>
+</html>

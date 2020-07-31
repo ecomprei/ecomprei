@@ -1,0 +1,66 @@
+.vtexIdUI.ng-scope.vtexIdUI-show-app {
+    display: none;
+    height: 477px!important;
+}
+div#vtexIdUI-auth-selector {
+    display: none;
+}
+a.vtexIdUI-back-link.pull-left.dead-link {
+    display: none;
+}
+.modal-footer {
+    margin-top: 0;
+}
+#vtexIdContainer {
+    position: fixed!important;
+}
+  .is--active {
+      display: block!important;
+      margin: 0;
+      transition: .7s;
+  }
+  .is--activeunt {
+    border-right: 4px solid #ccc;
+  }
+  #e-cnpj {
+      display: none;
+  }
+  #e-dados {
+      margin: auto;
+  }
+  html {
+    overflow-x: hidden;
+}
+.clickcadastro i {
+        margin-right: 0;
+        font-size: 1.25rem;
+        color: #97ca59;
+}
+
+@media screen and (max-width: 48rem) {
+    .e-form {
+        flex-wrap: wrap;
+    }
+    #e-dados {
+        width: 100%!important;
+        border-right: none;
+    }
+    #e-cnpj {
+        width: 100%!important;
+    }
+    .col-xs-12.col-sm-4 {
+        width: 100%!important;
+    }
+    .col-xs-12.col-sm-3 {
+        width: 100%!important;
+    }
+}
+.fulltext-search-box {
+    position: relative;
+    z-index: 9999999;
+}
+
+ol.is--blocked, ol.is--blocked .productItem__quantity, ol.is--blocked .productItem__button.js-product-add, .productRow--list.is--blocked, .productRow--list.is--blocked .productItem__button.js-product-add, .productRow--list.is--blocked .productItem__quantity, .priceB2b.js-priceB2b.is--blocked, .priceB2b.js-priceB2b.is--blocked .buy-button.buy-button-ref, .priceB2b.js-priceB2b.is--blocked, .priceB2b.js-priceB2b.is--blocked .productPage__quantity {
+    opacity: .5;
+    pointer-events: none;
+}

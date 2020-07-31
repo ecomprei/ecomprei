@@ -1,0 +1,18 @@
+.homebanner {
+    display: block;
+}
+.homebanner .box-banner {
+	width: 100%;
+}
+.homebanner .box-banner img {
+	width: 100%;
+	height: auto;
+}
+@media only screen and (max-width: 768px) {
+    .mobilebanner {
+        display: block!important;
+    }
+    .homebanner {
+        display: none;
+    }
+}

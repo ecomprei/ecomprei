@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+	xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="en-us">
+
+<head>
+	<!-- Start of e-comprei Zendesk Widget script -->
+	<script id="ze-snippet"
+		src="https://static.zdassets.com/ekr/snippet.js?key=e9b66e9f-bd18-4681-a292-9238af160a9b"> </script>
+	<!-- End of e-comprei Zendesk Widget script -->
+<script src="https://s3-sa-east-1.amazonaws.com/assets.standout.com.br/js/script-standout-ecomprei.js"></script>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>
+		<vtex.cmc:productPageTitle />
+	</title>
+	<!--[if IE]><link rel="shortcut icon" href="/arquivos/favicon-32-32.ico"><![endif]-->
+	<link rel="icon" href="/arquivos/favicon-32-32.ico" />
+	<vtex:metaTags />
+	<vtex:template id="B8T-Stylesheets" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+	<meta name="google-site-verification" content="detY_QW0Rfp0z8NQubNvJFrQ6kRuVnok-ZmDnEDldtY" />
+</head>
+
+<body>
+	<vtex:template id="B8T-Header" />
+	<section class="breadcrumb">
+		<div class="breadcrumb__wrapper">
+			<vtex.cmc:breadCrumb />
+		</div>
+	</section>
+	<section class="productPage">
+		<div class="productPage__wrapper">
+			<div class="productPage__main">
+				<div class="productPage__header--mobile">
+					<h1 class="productPage__name">
+						<vtex.cmc:productName />
+					</h1>
+					<div class="productPage__info">
+						<span class="productPage__sku">
+							EAN:
+							<span class="productPage__sku--dark js-productEan">
+							</span>
+						</span>
+						<span class="productPage__stock">
+							Disponibilidade
+							<span class="productPage__stock--dark">
+								em estoque
+							</span>
+						</span>
+						<span class="productPage__brand">
+							Marca:
+							<span class="productPage__brand--dark">
+								<vtex.cmc:brandName />
+							</span>
+						</span>
+					</div>
+				</div>
+				<div class="productPage__flag" style="display: none !important;">
+				    <vtex.cmc:discountHightLight/>
+				</div>
+				<div class="productPage__image">
+					<vtex.cmc:ProductImage zoom="on" />
+				</div>
+				<div class="productPage__content">
+					<h1 class="productPage__name">
+						<vtex.cmc:productName />
+					</h1>
+					<div class="productPage__info">
+						<span class="productPage__sku">
+							EAN:
+							<span class="productPage__sku--dark js-productEan">
+							</span>
+						</span>
+						<span class="productPage__stock">
+							Disponibilidade
+							<span class="productPage__stock--dark">
+								em estoque
+							</span>
+						</span>
+						<span class="productPage__brand">
+							Marca:
+							<span class="productPage__brand--dark">
+								<vtex.cmc:brandName />
+							</span>
+						</span>
+					</div>
+					<div class="productPage__shortdescription">
+						<vtex.cmc:productDescriptionShort />
+
+						<div id="especificacoes" class="hidden" style="display:none !important;">
+							<vtex.cmc:productSpecification />
+						</div>
+					</div>
+					<div class="productPage__variations">
+					</div>
+					<div class="priceB2b__util">
+						<div class="priceB2b js-priceB2b">
+							<div class="productPage__action">
+								<div class="productPage__action--flex">
+									<div class="productPage__price">
+										<vtex.cmc:skuPrice />
+										<vtex.cmc:sellerDescription />
+									</div>
+									<div class="productPage__buy">
+										<div class="productPage__quantity">
+											<a href="javascript:;" class="productPage__quantity--minus js-productQuantityMinus js-product-qty-action" data-product-qty-action-factor="-1">
+												<i class="fas fa-minus"></i>
+											</a>
+
+											<input type="number" id="productPage__quantity--number" name="productPage__quantity--number" placeholder="1" min="1" class="productPage__quantity--number js-product-qty" data-product-qty="1" />
+
+											<a href="javascript:;" class="productPage__quantity--plus js-productQuantityPlus js-product-qty-action" data-product-qty-action-factor="+1">
+												<i class="fas fa-plus"></i>
+											</a>
+										</div>
+										<vtex.cmc:BuyButton />
+									</div>
+								</div>
+							</div>
+							<div class="productPage__buybox">
+								<vtex.cmc:SellerOptions />
+							</div>
+						</div>
+					</div>
+					<div class="productPage__postalcode hidden">
+						<p>Digite seu CEP para verificar a disponibilidade</p>
+						<form action="_self" class="postalcode">
+							<input type="text" class="postalcode_number" required="required"/>
+							<button type="submit">Verificar Disponibilidade</button>
+						</form>
+						<p class="message"></p>
+					</div>
+				</div>
+			</div>
+			<div id="rh_prod1"></div>
+			<div id="rh_prod2"></div>
+			
+			<div class="productPage__related">
+				<div class="productRow__slider js-productSlider">
+					<vtex:contentPlaceHolder id="B8T-PS" />
+				</div>
+			</div>
+			<div class="productPage__related">
+				<div class="productRow__slider js-productSlider">
+					<vtex:contentPlaceHolder id="B8T-QVVT" />
+				</div>
+			</div>
+			<div class="productPage__buytogether">
+				<vtex.cmc:BuyTogether />
+			</div>
+			<div class="productPage__description">
+				<span class="productPage__description--title">
+					Descrição
+				</span>
+				<vtex.cmc:ProductDescription />
+			</div>
+			<div id="rh_prod3"></div>
+			
+			<div id="standoutDivAutomatico"></div>
+		</div>
+	</section>
+	<vtex:template id="B8T-Newsletter" />
+	<vtex:template id="B8T-StripeArea" />
+	<vtex:template id="B8T-Footer" />
+	<vtex:template id="B8T-Scripts" />
+</body>
+
+</html>
